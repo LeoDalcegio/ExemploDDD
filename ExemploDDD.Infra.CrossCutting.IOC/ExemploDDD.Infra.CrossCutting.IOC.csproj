@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ExemploDDD.Application\ExemploDDD.Application.csproj" />
+    <ProjectReference Include="..\ExemploDDD.Domain\ExemploDDD.Domain.csproj" />
+    <ProjectReference Include="..\ExemploDDD.Infra.CrossCutting.Adapter\ExemploDDD.Infra.CrossCutting.Adapter.csproj" />
+    <ProjectReference Include="..\ExemploDDD.Infra\ExemploDDD.Infra.csproj" />
+  </ItemGroup>
+
+</Project>
